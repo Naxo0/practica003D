@@ -29,6 +29,46 @@ li a {
 li a:hover {
   background-color: #111;
 }
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+div.galleryy {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 180px;
+}
+
+div.galleryy:hover {
+  border: 1px solid #777;
+}
+
+div.galleryy img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
     </style>
 </head>
 <body>
@@ -45,9 +85,19 @@ li a:hover {
         Ignacio Huerta: CEO<br>
         Diego espejo: Director ejecutivo
     </h3>
-    <img  src="/IMG/gato1.jpg" alt="Pagina de los gatos"><br>
-    <a href="gatos.html" >Ir a pagina de los Gatos</a><br>
-    <img src="/IMG/perros.jpg" alt="Pagina de los perros" width="250" height="294"><br>
-    <a href="Perrrros.html" > Ir a pagina de los Perros</a>
+    <div class="gallery">
+      <a href="gatos.html" ><br>
+        <img src="/IMG/gato1.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">Ir a la página de gatos</div>
+    </div>
+    
+    <div class="galleryy">
+      <a href="Perrrros.html" ><br>
+        <img src="/IMG/perros.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">Ir a la página de Perros</div>
+    </div>
+
 </body>
 </html>
