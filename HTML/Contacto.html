@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perros</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         ul {
           list-style-type: none;
@@ -29,7 +30,29 @@
         li a:hover {
           background-color: #111;
         }
-            </style>
+        
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
 </head>
 <body>
   <ul>
@@ -40,15 +63,34 @@
     <li><a href="Nosotros.html">Nosotros</a></li>
   </ul>
     <center><h1>Ayuda a un peludo </h1></center>  
-    <left><h2>  Les presentaremos a nuestros caninos,
-        Perros los cuales buscan un nuevo hogar, con todas sus vacunas al días y estusiasmados por un nuevo dueño.<br> </h2></left>
-        <center> <h1><br>Nuestros perros que buscan un dueño </h1></center>
-        <img src="Dogo1.jpg" alt="Perro 1" width="500" height="400">
-        <right> <a href="Destructor.html" >Destructor</a></right> <br>
-        <img src="Dogo2.jpg" alt="Perro 2" width="500" height="400">
-        <right> <a href="Senior.html" >Senior</a></right> <br>
-        <img src="Dogo3.jpg" alt="Perro 3" width="500" height="400">
-        <right> <a href="Estrella.html" >Estrella</a></right> <br>
-        <br><right> <a href="Main.html" >Volver a la página principal</a> </right>  
+    <h2>The name Attribute</h2>
+
+<form action="Contacto.html">
+  <!-- NOMBRE-->
+  <label for="fname">Nombre:</label><br>
+  <input type="text" id="fname" value=""><br><br>
+  <!-- APELLIDO-->
+  <label for="fname">Apellido:</label><br>
+  <input type="text" id="fname" value=""><br><br>
+  <!-- EDAD-->
+  <label for="fname">Edad:</label><br>
+  <input type="text" id="fname" value=""><br><br>
+  <!-- GÉNERO-->
+  <label for="fname">Género:</label><br>
+  <input type="text" id="fname" value=""><br><br>
+   <!-- Telefono-->
+   <label for="fname">Teléfono:</label><br>
+  <input type="number" id="fname" value=""><br><br>
+  <!-- Dirección-->
+  <label for="fname">Dirección:</label><br>
+  <input type="text" id="fname" value=""><br><br>
+<!-- BOTON DE SUBIR-->
+  <input type="submit" value="Submit">
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+  </div>
+  
+</form>  
 </body>
 </html>
