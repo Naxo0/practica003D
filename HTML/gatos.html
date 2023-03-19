@@ -29,6 +29,47 @@
         li a:hover {
           background-color: #111;
         }
+        div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+div.galleryy {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 180px;
+}
+
+div.galleryy:hover {
+  border: 1px solid #777;
+}
+
+div.galleryy img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
             </style>
 </head>
 <body>
@@ -42,12 +83,24 @@
     <center><h1>ONG Ayuda a un peludo</h1></center> 
     <h2>Les presentamos a nuestros felinos, nuestros gatos estan con las vacunas al dia y entusiasmados por un nuevo dueño</h2>
     <center><h1>Nuestros gatos que buscan dueño</h1></center>
-    <img src="gatito1.jpg" alt="Gatito 1" width="400" height="400">
-    <a href="Mochi.html">Mochi</a><br>
-    <img src="botas.jpg" alt="Gatito 2" width="400" height="400">
-    <a href="botitas.html" >Botitas</a><br>
-    <img src="bola.jpg" alt="Gatito 3" width="400" height="400">
-    <a href="boladenieve.html" >Bola de nieve</a><br>
-    <br><right> <a href="Main.html" >Volver a la página principal</a> </right>
+    <div class="gallery">
+      <a href="Mochi.html" ><br>
+        <img src="/IMG/gatito1.jpg" alt="Gato 1" width="600" height="600">
+      </a>
+      <div class="desc">Mochi</div>
+    </div>
+    <div class="gallery">
+      <a href="botitas.html" ><br>
+        <img src="/IMG/botas.jpg" alt="Gato 2" width="600" height="600">
+      </a>
+      <div class="desc">Botas</div>
+    </div>
+    <div class="gallery">
+      <a href="boladenieve.html" ><br>
+        <img src="/IMG/bola.jpg" alt="Gato 3" width="600" height="1000">
+      </a>
+      <div class="desc">Bola</div><br>
+    </div>
+    <br> <a href="Main.html" >Volver a la página principal</a>
 </body>
 </html>

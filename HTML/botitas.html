@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botitas</title>
+    <title>Bola de nieve</title>
     <style>
         ul {
           list-style-type: none;
@@ -29,23 +29,49 @@
         li a:hover {
           background-color: #111;
         }
+        .container {
+			    display: flex;
+			    align-items: center;
+          justify-content: center;
+          text-align: center;
+		    }
+		    .container img {
+			    margin-right: 10px;
+		    }
+        .text-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: left;
+        }
+
+        .text-container p {
+          margin: 0;
+        }
+        .text-container strong {
+          font-weight: bold;
+        }
             </style>
 </head>
 <body>
-  <ul>
-    <li><a class="active" href="Main.html">Inicio</a></li>
-    <li><a href="Perrrros.html">Perros</a></li>
-    <li><a href="gatos.html">Gatos</a></li>
-    <li><a href="Contacto.html">Contacto</a></li>
-    <li><a href="Nosotros.html">Nosotros</a></li>
-  </ul>
+    <ul>
+        <li><a class="active" href="Main.html">Inicio</a></li>
+        <li><a href="Perrrros.html">Perros</a></li>
+        <li><a href="gatos.html">Gatos</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+        <li><a href="Nosotros.html">Nosotros</a></li>
+      </ul>
     <center><h1>ONG Ayuda a un peludo</h1></center>
-    <img src="botas.jpg" alt="Gatito 2" width="400" height="400">
-    <h2> Nombre: Botitas</h2>
-    <h2> Edad: 4</h2>
-    <h2> Género: Femenino</h2>
-    <h2> Esterilizado: Si</h2>
-    <h2> Nro Código: 32</h2>
-    <br><right> <a href="gatos.html" >Volver a la página principal de los gatos</a> </right>  
+    <div class="container">
+    <img src="/img/botas.jpg" alt="Gatito 2" width="400" height="400">
+    <div class="text-container">
+      <p><strong>Nombre: Botitas</strong></p>
+      <p><strong>Edad: 4</strong></p>
+      <p><strong>Género: Femenino</strong></p>
+      <p><strong>Esterilizado: Si</strong></p>
+      <p><strong>Nro Código: 32</strong></p>
+      <a href="gatos.html" >Volver a la página principal de los gatos</a>
+    </div>
+  </div> 
 </body>
 </html>

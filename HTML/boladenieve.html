@@ -29,6 +29,28 @@
         li a:hover {
           background-color: #111;
         }
+        .container {
+			    display: flex;
+			    align-items: center;
+          justify-content: center;
+          text-align: center;
+		    }
+		    .container img {
+			    margin-right: 10px;
+		    }
+        .text-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: left;
+        }
+
+        .text-container p {
+          margin: 0;
+        }
+        .text-container strong {
+          font-weight: bold;
+        }
             </style>
 </head>
 <body>
@@ -40,12 +62,16 @@
         <li><a href="Nosotros.html">Nosotros</a></li>
       </ul>
     <center><h1>ONG Ayuda a un peludo</h1></center>
-    <img src="bola.jpg" alt="Gatito 3" width="400" height="400">
-    <h2> Nombre: Bola de nieve</h2>
-    <h2> Edad: 3</h2>
-    <h2> Género: Femenino</h2>
-    <h2> Esterilizado: Si</h2>
-    <h2> Nro Código: 22</h2>
-    <br><right> <a href="gatos.html" >Volver a la página principal de los gatos</a> </right>  
+    <div class="container">
+    <img src="/img/bola.jpg" alt="Gatito 3" width="400" height="400">
+    <div class="text-container">
+      <p><strong>Nombre: Bola de nieve</strong></p>
+      <p><strong>Edad: 3</strong></p>
+      <p><strong>Género: Femenino</strong></p>
+      <p><strong>Esterilizado: Si</strong></p>
+      <p><strong>Nro Código: 22</strong></p>
+      <a href="gatos.html" >Volver a la página principal de los gatos</a>
+    </div>
+  </div> 
 </body>
 </html>

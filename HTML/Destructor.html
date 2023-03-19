@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destructor</title>
+    <title>Bola de nieve</title>
     <style>
         ul {
           list-style-type: none;
           margin: 0;
           padding: 0;
           overflow: hidden;
-          background-color: rgb(255, 145, 0);
+          background-color: #333;
         }
         
         li {
@@ -29,26 +29,49 @@
         li a:hover {
           background-color: #111;
         }
-        body{
-            background-color: #9c9c9c;
+        .container {
+			    display: flex;
+			    align-items: center;
+          justify-content: center;
+          text-align: center;
+		    }
+		    .container img {
+			    margin-right: 10px;
+		    }
+        .text-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: left;
         }
-        </style>
+
+        .text-container p {
+          margin: 0;
+        }
+        .text-container strong {
+          font-weight: bold;
+        }
+            </style>
 </head>
 <body>
-  <ul>
-    <li><a class="active" href="Main.html">Inicio</a></li>
-    <li><a href="Perrrros.html">Perros</a></li>
-    <li><a href="gatos.html">Gatos</a></li>
-    <li><a href="Contacto.html">Contacto</a></li>
-    <li><a href="Nosotros.html">Nosotros</a></li>
-  </ul>
+    <ul>
+        <li><a class="active" href="Main.html">Inicio</a></li>
+        <li><a href="Perrrros.html">Perros</a></li>
+        <li><a href="gatos.html">Gatos</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+        <li><a href="Nosotros.html">Nosotros</a></li>
+      </ul>
     <center><h1>ONG Ayuda a un peludo</h1></center>
-    <img src="Dogo1.jpg" alt="Perro 1" width="500" height="400">
-    <h2> Nombre: Destructor</h2>
-    <h2> Edad: 2</h2>
-    <h2> Género: Masculino</h2>
-    <h2> Esterilizado: Si</h2>
-    <h2> Nro Código: 81</h2>
-    <br><right> <a href="Perrrros.html" >Volver a la página de perros</a> </right>    
+    <div class="container">
+    <img src="/img/Dogo1.jpg" alt="Perro 1" width="400" height="400">
+    <div class="text-container">
+      <p><strong>Nombre: Destructor</strong></p>
+      <p><strong>Edad: 2</strong></p>
+      <p><strong>Género: Masculino</strong></p>
+      <p><strong>Esterilizado: Si</strong></p>
+      <p><strong>Nro Código: 91</strong></p>
+      <a href="Perrrros.html" >Volver a la página principal de perros</a>
+    </div>
+  </div> 
 </body>
 </html>
