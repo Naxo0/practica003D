@@ -5,30 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AYUDA A UN PELUDO</title>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="/CSS/diseño_titulos.css">
+    <!-- fuente para h1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <!-- fuente para p-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+  <!-- barra superior-->
+  <style>
+    ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #000000;
+position: absolute;
+top: 0px;
+left: 0;
+height: 50px;
+width: 10000px;
+
 }
 
 li {
-  float: left;
+float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
-li a:hover {
-  background-color: #111;
+li a:hover:not(.active) {
+background-color: #111;
+height: 50px;
 }
+
+.active {
+background-color: #245c3b;
+height: 50px;
+}
+   </style>
+<!-- galeria de fotos-->
+<style>
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -79,12 +106,12 @@ div.desc {
     <li><a href="Contacto.html">Contacto</a></li>
     <li><a href="Nosotros.html">Nosotros</a></li>
   </ul>
-    <center><h1>ONG Ayuda a un peludo</h1></center>
-    <h2>ONG ayuda a un peludo es una organizacion sin fines de lucro que su principal objetivo es la ayuda de perros y gatos</h2>
-    <h3>Participantes de la ONG :<br>
+    <center><h2>Ayuda a un peludo</h2></center>
+    <p>ONG ayuda a un peludo es una organizacion sin fines de lucro que su principal objetivo es la ayuda de perros y gatos</p>
+    <p>Participantes de la ONG :<br>
         Ignacio Huerta: CEO<br>
         Diego espejo: Director ejecutivo
-    </h3>
+    </p>
     <div class="gallery">
       <a href="gatos.html" ><br>
         <img src="/IMG/gato1.jpg" alt="Cinque Terre" width="600" height="400">
