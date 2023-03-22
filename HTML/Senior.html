@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bola de nieve</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <link rel="stylesheet" href="/CSS/diseño_titulos.css">
-    <!-- fuente para h1-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <!-- fuente para p-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senior</title>
+  <!-- CSS Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--Nuestros CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="/CSS/diseño_titulos.css">
+  <link rel="stylesheet" href="/CSS/diseño_img.css">
+  <!-- fuente para h1-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <!-- fuente para p-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <!--fuente para tarjetas de los perros-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+   <!--fuente parra barra superior-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <!--Barra superior-->
 <style>
   ul {
@@ -52,51 +65,45 @@ height: 50px;
 background-color: #26A69A;
 height: 50px;
 }
-</style>
-<!-- foto perro-->
-<style>
-        .container {
-			    display: flex;
-			    align-items: center;
-          justify-content: center;
-          text-align: center;
-		    }
-		    .container img {
-			    margin-right: 10px;
-		    }
-        .text-container {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          text-align: left;
-        }
-
-        .text-container p {
-          margin: 0;
-        }
-        .text-container strong {
-          font-weight: bold;
-        }
-            </style>
+ </style>
 </head>
 <body>
-    <ul>
-        <li><a href="Main.html">Inicio</a></li>
-        <li><a class="active" href="Perrrros.html">Perros</a></li>
-        <li><a href="gatos.html">Gatos</a></li>
-        <li><a href="Contacto.html">Contacto</a></li>
-        <li><a href="Nosotros.html">Nosotros</a></li>
-      </ul>
-    <center><h2>Ayuda a un peludo</h2></center>
-    <div class="container">
-    <img src="/img/Dogo2.jpg" alt="Perro2" width="400" height="400">
-    <div class="text-container">
-      <p><strong>Nombre: Senior</strong></p>
-      <p><strong>Edad: 7</strong></p>
-      <p><strong>Género: Masculino</strong></p>
-      <p><strong>Esterilizado: Si</strong></p>
-      <p><strong>Nro Código: 70</strong></p>
-      <a href="Perrrros.html" >Volver a la página principal de perros</a>
+  <div class="container-fluid">
+    <!--TITULO-->
+    <div class="row">
+      <div class="col-md-12" class="col-sm-12" style="text-align: center;">
+        <h2>Ayuda a un peludo</h2>
+      </div>
+    </div>
+<!--SUBTITULO-->
+<div class="row">
+  <div class="col-md-12" class="col-sm-12" style="text-align: center;">
+    <P>En esta página te presentaremos a cada uno de nuestros perros disponibles, todos estan desparacitados y con sus vacunas al dia. </P>
+  </div>
+</div>
+<!--Titulo fotos-->
+<!--FOTOS-->
+<div class="row">
+  <!--foto perro-->
+  <div class="col-md-6" class="col-sm-6" style="text-align: center;">
+      <img class="tam_fotodentro" src="/IMG/perro2.avif" alt="perro 2" style="float:left;" class="container-fluid">
+      <div class="text" class="col-md-6" class="col-sm-6" style="text-align: center;" >  
+      <p>Nombre: Senior</p>
+      <p>Edad: 7</p>
+      <p>Género: Masculino</p>
+      <p>Nro Código: 70</p>
+    </div>
+  </div>    
+</head>
+<body>
+  <ul>
+    <li><a class="diseño_barra_superior" href="Main.html">Inicio</a></li>
+    <li><a class="diseño_barra_superior" class="active" href="Perrrros.html">Perros</a></li>
+    <li><a class="diseño_barra_superior" href="gatos.html">Gatos</a></li>
+    <li><a class="diseño_barra_superior" href="Contacto.html">Contacto</a></li>
+    <li><a class="diseño_barra_superior" href="Nosotros.html">Nosotros</a></li>
+    <li><a class="diseño_barra_superior"  href="#"> Número de contacto: +5699877456</a></li>
+  </ul> 
     </div>
   </div> 
 </body>
