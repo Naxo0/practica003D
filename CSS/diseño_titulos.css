@@ -25,3 +25,8 @@ p{
 .diseño_barra_superior{
     font-family: 'Bebas Neue', cursive;
 }
+.texto_decorado{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 20px;
+}
